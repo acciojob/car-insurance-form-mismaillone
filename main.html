@@ -7,7 +7,33 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form>
+  <label for="name">HTML</label>
+  <input type="text" id="name" >
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" >
+  <label for="Gender">Gender</label>
+  <label for="gender-m">Male</label>	
+  <input type="radio" id="gender-m" name="Gender" value="male">
+  <label for="gender-f">Female</label>	
+  <input type="radio" id="gender-f" name="Gender" value="female">
+	
+		<br>	<label for="cars" id ="cars" >Car Brands</label>
+		<select id="cars">
+		<option>BMW</option>
+		<option>Audi</option>
+		<option>Mercedes</option>
+	</select>
+		 <label for="carage">CarAge</label>	
+  <input type="number" id="carage" name="Gender" value="female" required>
+
+		 <label for="dop">Date of Purchase (dop)</label>	
+  <input type="date" id="dop" name="dop" value="dop" required>
+		 <label for="password">Password</label>	
+  <input type="password" id="password" name="password" value="password" required>
+
+		<button type="submit">Submit Button</button>
+</form> 
     <script type="text/javascript" src="./script.js">
 </script>
 
